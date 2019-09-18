@@ -18,3 +18,7 @@
   .person-details .list-group-item .term{
     margin-right: .5rem;
   }
+
+  .card-body .btn.btn-danger {
+    margin: 1rem 0;
+  }

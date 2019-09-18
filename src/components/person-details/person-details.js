@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SwapiService from '../../services/swapi-service';
 import Spiner from '../spiner/spiner';
+import ErrorButton from '../error-button';
 
 import './person-details.css';
 
@@ -80,6 +81,7 @@ export default class PersonDetails extends Component {
               <span>{eyeColor}</span>
             </li>
           </ul>
+          <ErrorButton />
         </div>
       </div>
     )
